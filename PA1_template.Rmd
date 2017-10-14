@@ -75,7 +75,7 @@ mean(NewTotalSteps) - mean(StepsByday)
 median(NewTotalSteps) - median(StepsByday)
 ```
 
-# Are there any differences in activity patterns between weekdays and weekends?
+# Are there differences in activity patterns between weekdays and weekends?
 ```{r}
 # Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 newdata$daytype <- factor(format(newdata$date, "%A"))
